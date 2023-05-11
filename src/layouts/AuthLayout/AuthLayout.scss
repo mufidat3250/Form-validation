@@ -1,0 +1,15 @@
+.AuthWrapper{
+    display:grid;
+    grid-template-columns: 55% 45%;
+    height:100vh;
+}
+.leftSide{
+    background-image: url("/vectors/arr.png");
+    background-color:red;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.content{
+    display:grid;
+    place-items:center;
+}
